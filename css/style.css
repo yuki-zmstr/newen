@@ -66,7 +66,7 @@
 }
 
 .project-box {
-    background-color: grey;
+    background-color: rgb(181, 181, 181);
 }
 
 #projects .row {
@@ -78,4 +78,10 @@
 #projects .col {
     /* background-color: green; */
     padding-left: 3px;
+}
+
+#codes {
+    background-color: lightblue;
+    font-family: monospace;
+    font-style: italic;
 }
