@@ -100,7 +100,7 @@ html {
 .project-box {
     background-color: rgb(215, 215, 215);
     position: relative;
-    padding: 20px 10px 10px 10px
+    padding: 20px 10px 5px 10px
 }
 
 #projects .row {
@@ -234,7 +234,7 @@ html {
     color: #00317e;
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
-    padding: 50px 50px
+    margin: 5vh 2vw
 }
 
 #contact li {
