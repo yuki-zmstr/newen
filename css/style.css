@@ -9,12 +9,15 @@
 
 /* ----------------------------------------------- */
 
+html {
+    background-color: #fffdf9;
+}
+
 #main {
     width: 60%;
     margin: auto;
     /* text-align: center; */
     overflow-x: hidden;
-    background-color: #fffdf9;
 }
 
 .vertical-center {
@@ -165,6 +168,18 @@
 /* ----------------------------------------------- */
 
 #philosophy {
-    height: 30vh;
+    height: 40vh;
     position: relative;
+    text-align: center;
+}
+
+#philosophy p {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
