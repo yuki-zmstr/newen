@@ -120,8 +120,12 @@
 }
 
 .tools {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
+}
+
+.tools i {
+    padding-left: 5%;
 }
 
 .explanation h5 {
