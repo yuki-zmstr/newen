@@ -34,6 +34,15 @@
     transform: translate(-50%, -50%);
 }
 
+
+/* ----------------------------------------------- */
+
+
+/* HEADER */
+
+
+/* ----------------------------------------------- */
+
 #header {
     width: inherit;
     height: 50px;
@@ -41,6 +50,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     top: 10px;
     margin-top: 40px;
+    z-index: 2;
 }
 
 #nav {
@@ -56,6 +66,15 @@
     margin-left: 20px;
 }
 
+
+/* ----------------------------------------------- */
+
+
+/* ABOUT ME */
+
+
+/* ----------------------------------------------- */
+
 #about-me {
     height: 70vh;
     margin-top: 10vh;
@@ -65,23 +84,83 @@
     color: #033074;
 }
 
+
+/* ----------------------------------------------- */
+
+
+/* PROJECTS */
+
+
+/* ----------------------------------------------- */
+
 .project-box {
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(215, 215, 215);
+    position: relative;
 }
 
 #projects .row {
-    /* background-color: green; */
     margin-top: 5px;
-    padding: 0 10px
+    padding: 0 15px
 }
 
 #projects .col {
-    /* background-color: green; */
     padding-left: 3px;
 }
+
+.box2 {
+    margin-top: 30px;
+}
+
+.box3 {
+    margin-top: 60px;
+}
+
+.project-box img {
+    padding: 0 5%;
+}
+
+.tools {
+    font-size: 25px;
+    text-align: center;
+}
+
+.explanation h5 {
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.explanation span {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* SKILLS */
+
+
+/* ----------------------------------------------- */
 
 #codes {
     background-color: lightblue;
     font-family: monospace;
     font-style: italic;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* PHILOSOPHY */
+
+
+/* ----------------------------------------------- */
+
+#philosophy {
+    height: 30vh;
+    position: relative;
 }
