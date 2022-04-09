@@ -11,6 +11,7 @@
 
 html {
     background-color: #fffdf9;
+    font-size: 1vw;
 }
 
 #main {
@@ -99,15 +100,11 @@ html {
 .project-box {
     background-color: rgb(215, 215, 215);
     position: relative;
+    padding: 20px 10px 10px 10px
 }
 
 #projects .row {
     margin-top: 5px;
-    padding: 0 15px
-}
-
-#projects .col {
-    padding-left: 3px;
 }
 
 .box2 {
@@ -168,6 +165,7 @@ html {
     transform: translate(-50%, -50%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    color: #033074;
 }
 
 
@@ -184,9 +182,8 @@ html {
     font-family: 'Allura', cursive;
     /* font-style: italic; */
     font-weight: 500;
-    font-size: 2rem;
     height: 50vh;
-    opacity: 70%;
+    opacity: 50%;
     position: relative;
 }
 
@@ -196,7 +193,8 @@ html {
     text-align: center;
     top: 50%;
     left: 50%;
-    line-height: 70px;
+    font-size: 2.5rem;
+    line-height: 100px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -212,4 +210,31 @@ html {
 
 #hobbies {
     height: 50vh;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* CONTACT */
+
+
+/* ----------------------------------------------- */
+
+#contact a {
+    text-decoration: none;
+    color: rgb(187, 186, 186);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    padding: 0 50px
+}
+
+#contact li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#contact a:hover {
+    color: rgb(87, 87, 255);
 }
