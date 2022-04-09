@@ -1,0 +1,81 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css); */
+
+
+/* ----------------------------------------------- */
+
+
+/* SET UP */
+
+
+/* ----------------------------------------------- */
+
+#main {
+    width: 60%;
+    margin: auto;
+    /* text-align: center; */
+    overflow-x: hidden;
+    background-color: #fffdf9;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#header {
+    width: inherit;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 10px;
+    margin-top: 40px;
+}
+
+#nav {
+    float: right;
+    padding-left: 600px;
+    padding-top: 20px;
+    opacity: 50%;
+}
+
+#nav li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+#about-me {
+    height: 70vh;
+    margin-top: 10vh;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    color: #033074;
+}
+
+.project-box {
+    background-color: grey;
+}
+
+#projects .row {
+    /* background-color: green; */
+    margin-top: 5px;
+    padding: 0 10px
+}
+
+#projects .col {
+    /* background-color: green; */
+    padding-left: 3px;
+}
