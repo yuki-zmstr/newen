@@ -104,7 +104,7 @@ html {
 }
 
 #projects .row {
-    margin-top: 5px;
+    margin: 20px 0
 }
 
 .box2 {
@@ -150,7 +150,7 @@ html {
 /* ----------------------------------------------- */
 
 #philosophy {
-    height: 40vh;
+    height: 60vh;
     position: relative;
     text-align: center;
 }
