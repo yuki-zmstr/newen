@@ -83,9 +83,16 @@ html {
     height: 70vh;
     margin-top: 10vh;
     position: relative;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
-    color: #033074;
+    font-family: 'Crete Round', serif;
+    font-size: 1.3vw;
+}
+
+#about-me p {
+    margin-bottom: 0.5rem
+}
+
+#welcome {
+    text-align: center;
 }
 
 
@@ -104,7 +111,7 @@ html {
 }
 
 #projects .row {
-    margin: 20px 0
+    margin: 50px 0
 }
 
 .box2 {
@@ -116,7 +123,7 @@ html {
 }
 
 .project-box img {
-    padding: 0 5%;
+    padding: 0;
 }
 
 .tools {
@@ -125,12 +132,12 @@ html {
 }
 
 .tools i {
-    padding-left: 5%;
+    padding: 2% 2.5% 0 2.5%
 }
 
 .explanation h5 {
     margin-top: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Crete Round', serif;
     font-weight: 500;
 }
 
@@ -165,7 +172,6 @@ html {
     transform: translate(-50%, -50%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
-    color: #033074;
 }
 
 
@@ -178,7 +184,8 @@ html {
 /* ----------------------------------------------- */
 
 #codes {
-    background-color: rgb(0, 0, 0, 0.8);
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/low-contrast-linen.png);
     font-family: 'Allura', cursive;
     /* font-style: italic; */
     font-weight: 500;
@@ -189,12 +196,12 @@ html {
 #codes p {
     width: 100%;
     position: absolute;
-    text-align: center;
     top: 50%;
     left: 50%;
+    padding-left: 4vw;
     font-size: 2.5rem;
-    color: rgb(192, 192, 192);
-    line-height: 100px;
+    color: rgb(144, 144, 144);
+    line-height: 80px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
