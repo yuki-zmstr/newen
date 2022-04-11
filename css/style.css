@@ -15,9 +15,8 @@ html {
 }
 
 #main {
-    width: 60%;
+    width: 55%;
     margin: auto;
-    /* text-align: center; */
     overflow-x: hidden;
 }
 
@@ -103,12 +102,10 @@ html {
 /* ----------------------------------------------- */
 
 #about-me {
-    height: 70vh;
-    margin-top: 50vh;
-    margin-bottom: 10vh;
-    position: relative;
     font-family: 'Crete Round', serif;
     font-size: 1.1vw;
+    width: 60%;
+    margin: 30vh auto 0 auto;
 }
 
 #about-me h1 {
