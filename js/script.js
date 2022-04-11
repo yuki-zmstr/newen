@@ -17,7 +17,7 @@ $(document).ready( function(){
 
   $('.dot').click(function(){
     let num = $(this).data('num')
-    let cat = $(this).data('cat')
+    let cat = $(this).parents()[1].id
     showSlides(slideIndex = num, cat)
   })
 
