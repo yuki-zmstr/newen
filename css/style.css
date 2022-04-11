@@ -234,14 +234,24 @@ html {
 /* ----------------------------------------------- */
 
 #hobbies {
-    height: 50vh;
-    margin-top: 100px;
+    margin-top: 10vh;
 }
 
 .slideshow-container {
     height: 800px;
     position: relative;
-    margin: auto;
+    margin: 20vh auto;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    right: 1vw;
+    top: -5vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 #prevBtn,

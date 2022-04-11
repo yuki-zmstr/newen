@@ -1,24 +1,30 @@
 $(document).ready( function(){ 
   
   let slideIndex = 1;
-  showSlides(slideIndex);
+  $(".slideshow-container").each( function(){
+    let cat = $(this)[0].id
+    showSlides(slideIndex, cat)
+  });
 
   $(".prev").click(function() {
-    showSlides(slideIndex -= 1)
+    let cat = $(this).parent()[0].id
+    showSlides(slideIndex -= 1, cat)
   })
   $(".next").click(function() {
-    showSlides(slideIndex += 1)
+    let cat = $(this).parent()[0].id
+    showSlides(slideIndex += 1, cat)
   })
 
   $('.dot').click(function(){
     let num = $(this).data('num')
-    showSlides(slideIndex = num)
+    let cat = $(this).data('cat')
+    showSlides(slideIndex = num, cat)
   })
 
-  function showSlides(n) {
+  function showSlides(n, cat) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    let slides = document.getElementById(cat).getElementsByClassName("slide");
+    let dots = document.getElementById(cat).getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 1}    
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
