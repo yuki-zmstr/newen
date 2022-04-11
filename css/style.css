@@ -104,14 +104,14 @@ html {
 
 #about-me {
     height: 70vh;
-    margin-top: 10vh;
+    margin-top: 50vh;
     position: relative;
     font-family: 'Crete Round', serif;
     font-size: 1.1vw;
 }
 
 #about-me p {
-    margin-bottom: 0.5rem
+    margin: 10vh 0
 }
 
 
@@ -124,6 +124,7 @@ html {
 /* ----------------------------------------------- */
 
 .project-box {
+    margin-top: 20vh;
     background-color: rgb(215, 215, 215);
     position: relative;
     padding: 20px 10px 5px 10px
