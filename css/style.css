@@ -274,8 +274,9 @@ html {
 }
 
 .slideshow-container img {
-    height: 650px;
+    height: 600px;
     object-fit: cover;
+    width: 100%;
 }
 
 .slide {
