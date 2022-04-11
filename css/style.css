@@ -238,10 +238,15 @@ html {
 }
 
 .slideshow-container {
-    height: 800px;
+    max-height: 800px;
     position: relative;
     margin: 20vh auto;
     position: relative;
+}
+
+.slideshow-container img {
+    height: 650px;
+    object-fit: cover;
 }
 
 .title {
