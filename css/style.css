@@ -176,6 +176,7 @@ html {
 
 #philosophy {
     height: 60vh;
+    margin-top: 10vh;
     position: relative;
     text-align: center;
 }
@@ -200,6 +201,10 @@ html {
 
 
 /* ----------------------------------------------- */
+
+#skills {
+    padding-top: 10vh;
+}
 
 #codes {
     background-color: rgb(84, 83, 83);
@@ -234,7 +239,8 @@ html {
 /* ----------------------------------------------- */
 
 #hobbies {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
+    padding-top: 5vh;
 }
 
 .slideshow-container {
@@ -399,4 +405,5 @@ html {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 0.9rem;
     letter-spacing: 1px;
+    color: rgb(61, 61, 61);
 }
