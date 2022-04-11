@@ -370,6 +370,7 @@ html {
 
 #contact ul {
     margin-bottom: 0;
+    padding: 0
 }
 
 #contact a {
@@ -377,7 +378,7 @@ html {
     color: rgb(61, 61, 61);
     -webkit-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out;
-    margin: 5vh 2vw
+    margin: 5vh 2vw 3vh 2vw
 }
 
 #contact li {
@@ -388,4 +389,14 @@ html {
 
 #contact a:hover {
     color: rgb(122, 122, 122);
+}
+
+#contact p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Crete Round', serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
 }
