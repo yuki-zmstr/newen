@@ -103,13 +103,13 @@ html {
 
 #about-me {
     font-family: 'Crete Round', serif;
-    font-size: 1.1vw;
     width: 60%;
     margin: 30vh auto 0 auto;
 }
 
 #about-me h1 {
     margin-bottom: 2vh;
+    font-size: 3vw;
 }
 
 #about-me p {
@@ -127,7 +127,11 @@ html {
 
 .project-box {
     margin-top: 8vh;
-    background-color: rgb(215, 215, 215);
+    background-color: #a5a5a5;
+    opacity: 1;
+    background-image: linear-gradient(#cccccc 1.6px, transparent 1.6px), linear-gradient(90deg, #cccccc 1.6px, transparent 1.6px), linear-gradient(#cccccc 0.8px, transparent 0.8px), linear-gradient(90deg, #cccccc 0.8px, #a5a5a5 0.8px);
+    background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
+    background-position: -1.6px -1.6px, -1.6px -1.6px, -0.8px -0.8px, -0.8px -0.8px;
     position: relative;
     padding: 20px 10px 5px 10px
 }
@@ -204,11 +208,15 @@ html {
 
 #skills {
     padding-top: 10vh;
+    margin-bottom: 30vh;
 }
 
 #codes {
-    background-color: rgb(84, 83, 83);
-    background-image: url(../img/low-contrast-linen.png);
+    background-color: #000000;
+    opacity: 1;
+    background-image: linear-gradient(#191919 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, #191919 0.6000000000000001px, #000000 0.6000000000000001px);
+    background-size: 12px 12px;
+    background-repeat: repeat;
     font-family: 'Allura', cursive;
     /* font-style: italic; */
     font-weight: 500;
@@ -220,13 +228,33 @@ html {
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 40%;
-    padding-left: 4vw;
+    left: 50%;
+    padding-left: 30px;
     font-size: 2.5rem;
-    color: rgb(204, 204, 204);
+    color: silver;
     line-height: 70px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* FILLER */
+
+
+/* ----------------------------------------------- */
+
+#filler {
+    height: 10px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 1;
+    background-image: linear-gradient(45deg, #414040 50%, #000000 50%);
+    background-repeat: repeat;
+    background-size: 10px 10px;
+    margin-bottom: 15vh;
 }
 
 
@@ -238,15 +266,10 @@ html {
 
 /* ----------------------------------------------- */
 
-#hobbies {
-    /* margin-top: 10vh; */
-    padding-top: 5vh;
-}
-
 .slideshow-container {
     max-height: 800px;
     position: relative;
-    margin: 20vh auto;
+    margin: 10vh auto 10vh;
     position: relative;
 }
 
