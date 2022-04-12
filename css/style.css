@@ -336,8 +336,16 @@ html {
     background: url(../img/next.png) no-repeat 0 0;
 }
 
+.caption {
+    position: absolute;
+    right: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
 
-/* The dots/bullets/indicators */
+.dots {
+    margin-top: 2vh;
+    text-align: center;
+}
 
 .dot {
     cursor: pointer;
