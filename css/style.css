@@ -149,7 +149,7 @@ html {
 }
 
 .tools {
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -235,6 +235,10 @@ html {
     line-height: 70px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#skills h1 {
+    margin-bottom: 2vh;
 }
 
 
