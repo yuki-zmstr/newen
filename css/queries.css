@@ -6,120 +6,7 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width: 1500px) {
-    html,
-    body {
-        font-size: 1vw;
-    }
-    .subheading {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        padding-left: 100px;
-    }
-    #content .container {
-        padding: 0 25px 150px 275px;
-        margin: auto;
-    }
-    header {
-        display: none;
-    }
-    .sidenav {
-        display: block;
-    }
-    .sidenav p {
-        font-size: 1.2rem;
-    }
-    /* ----------------------------------------------- */
-    /* ABOUT ME */
-    /* ----------------------------------------------- */
-    .about-para {
-        /* background-color: blue; */
-        padding: 0 250px 150px 250px;
-    }
-    /* ----------------------------------------------- */
-    /* HOBBIES */
-    /* ----------------------------------------------- */
-    .hobbies-para {
-        /* background-color: pink; */
-        padding: 75px 250px 50px 250px;
-    }
-    .dummy {
-        margin-bottom: 75px;
-        /* background-color: blue; */
-    }
-    #hobbies img {
-        width: 75%;
-        height: 75%;
-    }
-    /* ----------------------------------------------- */
-    /* FIRST QUOTE*/
-    /* ----------------------------------------------- */
-    .container#first-quote {
-        font-size: 1.5rem;
-    }
-    /* ----------------------------------------------- */
-    /* PROJECTS*/
-    /* ----------------------------------------------- */
-    .project-box h3 {
-        padding: 20px 0px;
-    }
-    .project-box img {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .many-more {
-        font-size: 1.5rem;
-        padding: 100px 0px 100px 0px;
-    }
-    /* ----------------------------------------------- */
-    /* THOUGHT BUBBLE*/
-    /* ----------------------------------------------- */
-    #bubble-intro {
-        text-align: center;
-        padding: 100px 80px;
-    }
-    #bubble-intro p {
-        font-size: 1.2rem;
-    }
-    #bubble .bubble-box {
-        width: auto;
-        margin: 0 300px;
-    }
-    #bubble .bubble-box h4 {
-        font-size: 1.2rem;
-    }
-    /* ----------------------------------------------- */
-    /* CONTACT */
-    /* ----------------------------------------------- */
-    .container#contact {
-        margin-bottom: 50px;
-        padding-bottom: 0px;
-    }
-    #contact .item {
-        font-size: 1.2rem;
-        margin-top: 20px;
-    }
-    #contact .col-6 {
-        padding-right: 30px;
-    }
-    #contact .col {
-        padding-left: 30px;
-    }
-    #contact a {
-        font-size: 2.5rem;
-        margin: 0 10px;
-    }
-    /* ----------------------------------------------- */
-    /* FOOTER */
-    /* ----------------------------------------------- */
-    .container#footer {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-    #footer p {
-        font-size: 1rem;
-    }
-}
+@media only screen and (min-width: 1500px) {}
 
 
 /* ----------------------------------------------- */
@@ -130,108 +17,7 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width: 1080px) and (max-width: 1499px) {
-    /* ----------------------------------------------- */
-    /* SET UP */
-    /* ----------------------------------------------- */
-    html,
-    body {
-        font-size: 1.5vw;
-    }
-    .subheading {
-        font-size: 1.5rem;
-    }
-    #content .container {
-        padding: 0 25px 200px 250px;
-        margin: auto;
-    }
-    header {
-        display: none;
-    }
-    .sidenav {
-        display: block;
-    }
-    /* ----------------------------------------------- */
-    /* ABOUT ME */
-    /* ----------------------------------------------- */
-    .about-para {
-        /* background-color: blue; */
-        padding: 0 100px 150px 100px;
-    }
-    /* ----------------------------------------------- */
-    /* HOBBIES */
-    /* ----------------------------------------------- */
-    .hobbies-para {
-        /* background-color: pink; */
-        padding: 75px 100px 50px 100px;
-    }
-    .dummy {
-        margin-bottom: 75px;
-        /* background-color: blue; */
-    }
-    #hobbies img {
-        width: 100%;
-        height: 100%;
-    }
-    /* ----------------------------------------------- */
-    /* PROJECTS*/
-    /* ----------------------------------------------- */
-    #projects .col-lg {
-        margin-top: 75px;
-    }
-    .project-box {
-        padding: 0px 25px;
-    }
-    .project-box h3 {
-        padding: 10px 0px;
-        font-size: 1.2rem;
-    }
-    .project-box img {
-        width: 90%;
-        height: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .project-box p {
-        font-size: 1rem;
-        padding: 0px 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .project-box i {
-        padding: 0 15px;
-    }
-    .many-more {
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-    /* ----------------------------------------------- */
-    /* THOUGHT BUBBLE*/
-    /* ----------------------------------------------- */
-    #bubble-intro {
-        padding: 75px 150px;
-    }
-    #bubble .bubble-box {
-        margin: 0 200px;
-    }
-    /* ----------------------------------------------- */
-    /* CONTACT */
-    /* ----------------------------------------------- */
-    .container#contact {
-        margin-bottom: 50px;
-        padding-bottom: 0px;
-    }
-    #contact a {
-        margin: 0 15px;
-    }
-    /* ----------------------------------------------- */
-    /* FOOTER */
-    /* ----------------------------------------------- */
-    .container#footer {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-}
+@media only screen and (min-width: 1080px) and (max-width: 1499px) {}
 
 
 /* ----------------------------------------------- */
@@ -242,86 +28,7 @@
 
 /* ----------------------------------------------- */
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* ----------------------------------------------- */
-    /* SET UP */
-    /* ----------------------------------------------- */
-    .subheading {
-        font-size: 1.5rem;
-    }
-    #content .container {
-        /* background-color: lightcoral; */
-        padding: 0 25px 200px 200px;
-        margin: auto;
-    }
-    header {
-        display: none;
-    }
-    .sidenav {
-        display: block;
-    }
-    /* ----------------------------------------------- */
-    /* PROJECTS*/
-    /* ----------------------------------------------- */
-    #projects .col-lg {
-        margin-top: 75px;
-    }
-    .project-box {
-        padding: 0px 20px;
-    }
-    .project-box h3 {
-        padding: 10px 0px;
-        font-size: 1rem;
-    }
-    .project-box img {
-        width: 90%;
-        height: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .project-box p {
-        font-size: 0.8rem;
-        padding: 0px 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .project-box i {
-        font-size: 1.5rem;
-        padding: 0 15px;
-    }
-    .many-more {
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-    /* ----------------------------------------------- */
-    /* CONTACT */
-    /* ----------------------------------------------- */
-    .container#contact {
-        margin-bottom: 50px;
-        padding-bottom: 0px;
-    }
-    #contact .col-6 {
-        padding-right: 20px;
-    }
-    #contact .col {
-        padding-left: 20px;
-    }
-    #contact .item {
-        margin: auto;
-        font-size: 1rem;
-    }
-    #contact a {
-        font-size: 2rem;
-        margin: 0 10px;
-    }
-    /* ----------------------------------------------- */
-    /* FOOTER */
-    /* ----------------------------------------------- */
-    .container#footer {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
 
 
 /* ----------------------------------------------- */
@@ -333,170 +40,210 @@
 /* ----------------------------------------------- */
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
-    /* ----------------------------------------------- */
-    /* SET UP */
-    /* ----------------------------------------------- */
-    body {
-        font-size: 2.5vw;
-    }
-    #logo {
-        width: 40%;
-    }
-    #content .container {
-        padding: 0 20px 100px 20px;
-        margin: auto;
-    }
-    .subheading {
-        font-size: 2.5rem;
+    #main {
+        width: 95%;
     }
     /* ----------------------------------------------- */
-    /* WELCOME PAGE */
+    /* HEADER */
     /* ----------------------------------------------- */
-    #welcome {
-        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min-min.jpg);
+    #header {
+        height: 3vh;
     }
-    #welcome p {
-        font-size: 2.5rem;
-        letter-spacing: none;
-        color: white;
-    }
-    /* ----------------------------------------------- */
-    /* TOP NAV */
-    /* ----------------------------------------------- */
-    header {
-        margin-top: 20px;
-    }
-    #btn_menu i {
-        font-size: 2rem;
-    }
-    #topnav p {
-        font-size: 2rem;
-    }
-    /* ----------------------------------------------- */
-    /* HIDDEN BAR */
-    /* ----------------------------------------------- */
-    .selection {
-        top: 150px;
-        right: 30px;
-    }
-    .selection li {
-        font-size: 2rem;
-        line-height: 5rem;
+    /* #header img {
+        width: 5%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 1.5vw;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    } */
+    #nav li {
+        margin-left: 10px;
     }
     /* ----------------------------------------------- */
     /* ABOUT ME */
     /* ----------------------------------------------- */
-    .about-para {
-        /* background-color: blue; */
-        padding: 0 25px 75px 25px;
+    #about-me {
+        width: 60%;
+        margin: 10vh auto 0 auto;
+    }
+    #about-me h1 {
+        margin-bottom: 1vh;
+        font-size: 3vw;
+    }
+    #about-me p {
+        margin: 2vh 0 0 0;
+    }
+    /* ----------------------------------------------- */
+    /* PROJECTS */
+    /* ----------------------------------------------- */
+    #projects {
+        margin-top: 5vh;
+    }
+    .project-box {
+        margin-top: 2vh;
+        background-color: #a5a5a5;
+        padding: 5px 5px 0px 5px
+    }
+    /* #project .row {
+        padding: 0;
+    } */
+    .box2 {
+        margin-top: 15px;
+    }
+    .box3 {
+        margin-top: 30px;
+    }
+    .project-box img {
+        padding: 0;
+    }
+    .tools {
+        font-size: 3vw;
+        text-align: center;
+    }
+    /* .tools i {
+        padding: 2% 2.5% 0 2.5%
+    } */
+    .explanation h5 {
+        font-size: 2.5vw;
+    }
+    .explanation span {
+        font-size: 1.5vw;
+    }
+    /* ----------------------------------------------- */
+    /* PHILOSOPHY */
+    /* ----------------------------------------------- */
+    #philosophy {
+        height: 30vh;
+        margin-top: 10vh;
+        position: relative;
+        text-align: center;
+    }
+    #philosophy p {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: 'Crete Round', serif;
+        font-size: 2.5vw;
+    }
+    /* ----------------------------------------------- */
+    /* SKILLS */
+    /* ----------------------------------------------- */
+    #skills {
+        padding-top: 10vh;
+        margin-bottom: 15vh;
+    }
+    #codes {
+        height: 20vh;
+    }
+    #codes p {
+        padding-left: 30px;
+        font-size: 3.5rem;
+        line-height: 30px;
+    }
+    #skills h1 {
+        margin-bottom: 2vh;
+        font-size: 5vw;
+    }
+    #skills h6 {
+        font-size: 1.5vw;
+        margin-bottom: 5px;
+    }
+    /* ----------------------------------------------- */
+    /* FILLER */
+    /* ----------------------------------------------- */
+    #filler {
+        height: 3px;
+        width: 100%;
+        margin-bottom: 10vh;
     }
     /* ----------------------------------------------- */
     /* HOBBIES */
     /* ----------------------------------------------- */
-    #hobbies h3 {
-        font-size: 1.5rem;
-        margin-bottom: 25px;
+    .slideshow-container {
+        max-height: 800px;
+        position: relative;
+        margin: 10vh auto 10vh;
+        position: relative;
+    }
+    .slideshow-container img {
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .slide {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {
+            opacity: .5
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .title {
+        position: absolute;
+        writing-mode: vertical-rl;
+        right: 1vw;
+        top: -5vh;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        z-index: 2;
+    }
+    .prev,
+    .next {
+        display: block!important;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 32px;
+        height: 45px;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+    }
+    .prev {
+        left: 50px;
+        background: url(../img/prev.png) no-repeat 0 0;
+    }
+    .next {
+        right: 50px;
+        background: url(../img/next.png) no-repeat 0 0;
+    }
+    .caption {
+        position: absolute;
+        right: 0;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .dots {
+        margin-top: 2vh;
         text-align: center;
     }
-    .hobbies-para {
-        /* background-color: pink; */
-        padding: 75px 25px 0px 25px;
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
     }
-    .dummy {
-        margin-bottom: 75px;
-        /* background-color: blue; */
-    }
-    #hobbies img {
-        width: 100%;
-        height: 100%;
-    }
-    /* ----------------------------------------------- */
-    /* FIRST QUOTE*/
-    /* ----------------------------------------------- */
-    .container#first-quote {
-        font-size: 1.5rem;
-    }
-    /* ----------------------------------------------- */
-    /* PROJECTS*/
-    /* ----------------------------------------------- */
-    #projects .col-lg {
-        margin-top: 75px;
-    }
-    .project-box {
-        padding: 0px 25px;
-    }
-    .project-box h3 {
-        padding: 10px 0px;
-        font-size: 1.5rem;
-    }
-    .project-box img {
-        width: 90%;
-        height: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .project-box p {
-        font-size: 1.2rem;
-        padding: 0px 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .project-box i {
-        font-size: 2.5rem;
-        padding: 0 15px;
-    }
-    .many-more {
-        font-size: 2rem;
-        font-weight: 800;
-    }
-    /* ----------------------------------------------- */
-    /* THOUGHT BUBBLE*/
-    /* ----------------------------------------------- */
-    #bubble-intro {
-        padding: 75px 25px;
-    }
-    #bubble-intro p {
-        font-size: 1.5rem;
-    }
-    #bubble .bubble-box {
-        width: auto;
-        margin: 0 75px;
-        margin-bottom: 50px;
-    }
-    #bubble .bubble-box h4 {
-        font-size: 1.3rem;
-    }
-    #bubble a {
-        width: 100px;
-        padding: 5px;
-        font-size: 0.9rem;
-        line-height: 15px;
-    }
-    /* ----------------------------------------------- */
-    /* CONTACT */
-    /* ----------------------------------------------- */
-    .container#contact {
-        margin-bottom: 50px;
-        padding-bottom: 0px;
-    }
-    #contact .col-6 {
-        padding-right: 15px;
-    }
-    #contact .col {
-        padding-left: 15px;
-    }
-    #contact a {
-        font-size: 3rem;
-        margin: 0 10px;
-    }
-    /* ----------------------------------------------- */
-    /* FOOTER */
-    /* ----------------------------------------------- */
-    .container#footer {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-    #footer p {
-        font-size: 1.2rem;
+    .active,
+    .dot:hover {
+        background-color: #717171;
     }
 }
