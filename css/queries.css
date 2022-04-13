@@ -47,19 +47,38 @@
     /* HEADER */
     /* ----------------------------------------------- */
     #header {
+        width: inherit;
         height: 3vh;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-top: 3px;
+        z-index: 999;
     }
-    /* #header img {
-        width: 5%;
+    #header img {
+        width: 7%;
         margin: 0;
         position: absolute;
         top: 50%;
-        left: 1.5vw;
+        left: 0;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-    } */
+    }
+    #nav {
+        float: right;
+        padding-left: 100px;
+        position: absolute;
+        top: 50%;
+        right: 1vw;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
     #nav li {
+        list-style: none;
+        float: left;
         margin-left: 10px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        transition: 0.6s ease;
+        font-size: 1.5vw;
     }
     /* ----------------------------------------------- */
     /* ABOUT ME */
