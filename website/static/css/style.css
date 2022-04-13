@@ -111,6 +111,10 @@ html {
     font-size: 3vw;
 }
 
+#about-me p:first-of-type {
+    margin: 20vh 0 0 0
+}
+
 #about-me p {
     margin: 10vh 0
 }
