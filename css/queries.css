@@ -136,7 +136,7 @@
     /* PHILOSOPHY */
     /* ----------------------------------------------- */
     #philosophy {
-        height: 30vh;
+        height: 20vh;
         margin-top: 10vh;
         position: relative;
         text-align: center;
@@ -163,16 +163,16 @@
         height: 20vh;
     }
     #codes p {
-        padding-left: 30px;
-        font-size: 3.5rem;
-        line-height: 30px;
+        padding-left: 25px;
+        font-size: 4rem;
+        line-height: 25px;
     }
     #skills h1 {
-        margin-bottom: 2vh;
-        font-size: 5vw;
+        margin-bottom: 1vh;
+        font-size: 6vw;
     }
     #skills h6 {
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin-bottom: 5px;
     }
     /* ----------------------------------------------- */
@@ -187,13 +187,13 @@
     /* HOBBIES */
     /* ----------------------------------------------- */
     .slideshow-container {
-        max-height: 800px;
+        max-height: 400px;
         position: relative;
         margin: 10vh auto 10vh;
         position: relative;
     }
     .slideshow-container img {
-        height: 600px;
+        height: 200px;
         object-fit: cover;
         width: 100%;
     }
@@ -213,11 +213,12 @@
         position: absolute;
         writing-mode: vertical-rl;
         right: 1vw;
-        top: -5vh;
+        top: -4vh;
         font-family: 'PT Sans Narrow', sans-serif;
         letter-spacing: 1px;
         font-weight: 600;
         z-index: 2;
+        font-size: 3vw;
     }
     .prev,
     .next {
@@ -237,17 +238,20 @@
         top: 50%;
     }
     .prev {
-        left: 50px;
+        left: 25px;
         background: url(../img/prev.png) no-repeat 0 0;
+        background-size: 50%;
     }
     .next {
-        right: 50px;
+        right: 25px;
         background: url(../img/next.png) no-repeat 0 0;
+        background-size: 50%;
     }
     .caption {
         position: absolute;
         right: 0;
         font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
     }
     .dots {
         margin-top: 2vh;
@@ -255,9 +259,9 @@
     }
     .dot {
         cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
