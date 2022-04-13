@@ -170,7 +170,7 @@
         height: 20vh;
     }
     #codes p {
-        padding-left: 25px;
+        padding-left: 20px;
         font-size: 4rem;
         line-height: 25px;
     }
@@ -189,6 +189,11 @@
         height: 3px;
         width: 100%;
         margin-bottom: 10vh;
+        background-color: #000000;
+        opacity: 1;
+        background-image: linear-gradient(45deg, #616161 50%, #000000 50%);
+        background-repeat: repeat;
+        background-size: 5px 5px;
     }
     /* ----------------------------------------------- */
     /* HOBBIES */
@@ -283,6 +288,7 @@
     /* ----------------------------------------------- */
     #contact {
         border-top: 2px solid rgb(61, 61, 61);
+        margin-top: 10vh;
     }
     #contact ul {
         margin-bottom: 0;
