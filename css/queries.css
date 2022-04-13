@@ -249,26 +249,19 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        width: 32px;
-        height: 45px;
+        width: 40px;
+        height: 200px;
         position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
+        top: 0;
+        /* -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         transition: background-color 0.6s ease;
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-    }
-    .prev {
-        left: 25px;
-        background: url(../img/prev.png) no-repeat 0 0;
-        background-size: 50%;
+        cursor: pointer; */
     }
     .next {
-        right: 25px;
-        background: url(../img/next.png) no-repeat 0 0;
-        background-size: 50%;
+        right: 0px;
+        /* background: url(../img/next.png) no-repeat 0 0;
+        background-size: 50%; */
     }
     .caption {
         position: absolute;
