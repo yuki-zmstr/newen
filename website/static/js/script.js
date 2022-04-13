@@ -1,4 +1,5 @@
 $(document).ready( function(){ 
+
   
   let slideIndex = 1;
   $(".slideshow-container").each( function(){
