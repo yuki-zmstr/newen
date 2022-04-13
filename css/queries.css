@@ -81,6 +81,17 @@
         font-size: 1.5vw;
         letter-spacing: 1px;
     }
+    #nav li {
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        transition: none;
+    }
+    #nav li:hover {
+        cursor: default;
+        color: inherit;
+    }
     /* ----------------------------------------------- */
     /* ABOUT ME */
     /* ----------------------------------------------- */
@@ -137,7 +148,7 @@
     /* PHILOSOPHY */
     /* ----------------------------------------------- */
     #philosophy {
-        height: 20vh;
+        height: 30vh;
         margin-top: 10vh;
         position: relative;
         text-align: center;
@@ -176,7 +187,7 @@
     }
     #skills h1 {
         margin-bottom: 1vh;
-        font-size: 6vw;
+        font-size: 7vw;
     }
     #skills h6 {
         font-size: 2vw;
