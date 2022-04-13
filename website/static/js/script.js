@@ -1,5 +1,6 @@
 $(document).ready( function(){ 
 
+  $("#main").animate({ opacity: 1.0 }, 1000)
   
   let slideIndex = 1;
   $(".slideshow-container").each( function(){
