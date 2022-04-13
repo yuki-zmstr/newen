@@ -272,4 +272,40 @@
     .dot:hover {
         background-color: #717171;
     }
+    /* ----------------------------------------------- */
+    /* CONTACT */
+    /* ----------------------------------------------- */
+    #contact {
+        border-top: 2px solid rgb(61, 61, 61);
+    }
+    #contact ul {
+        margin-bottom: 0;
+        padding: 0
+    }
+    #contact a {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+        -webkit-transition: color 0.4s ease-in-out;
+        transition: color 0.4s ease-in-out;
+        margin: 3vh 3vw 1vh 3vw;
+        font-size: 3vw;
+    }
+    #contact li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #contact a:hover {
+        color: rgb(122, 122, 122);
+    }
+    #contact p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        /* font-family: 'Crete Round', serif; */
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        color: rgb(61, 61, 61);
+    }
 }
