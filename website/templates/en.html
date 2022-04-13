@@ -30,14 +30,14 @@
 
 
     <!-- custom styling -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
 
     <!-- media queries -->
-    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/queries.css')}}" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
 
     <title>Yukihide Takahashi - NUS Student</title>
 </head>
@@ -46,7 +46,7 @@
     <div id="main">
         <div id="header">
             <div id="logo" style="display: block; float: left;">
-                <img src="img/logo.png" onclick="window.location='#main'" />
+                <img src="{{url_for('static', filename='img/logo.png')}}" onclick="window.location='#main'" />
             </div>
             <ul id="nav" style="display: block;">
                 <li onclick="window.location='#projects'">
@@ -82,7 +82,7 @@
                 <div class="col-lg box1">
                     <div class="project-box">
                         <a href="https://yuki-zmstr.github.io/yumzandsweetz/" target="_blank">
-                            <img src="img/food.jpg" style="width: 100%">
+                            <img src="{{url_for('static', filename='img/food.jpg')}}" style="width: 100%">
                         </a>
                         <div class="tools">
                             <i class="fab fa-html5"></i>
@@ -98,7 +98,7 @@
                 <div class="col-lg box2">
                     <div class="project-box">
                         <a href="https://www.nisc-nus.com/" target="_blank">
-                            <img src="img/nisc.jpg" style="width: 100%">
+                            <img src="{{url_for('static', filename='img/nisc.jpg')}}" style="width: 100%">
                         </a>
                         <div class="tools">
                             <i class="fab fa-html5"></i>
@@ -115,7 +115,7 @@
             <div class="row">
                 <div class="col-lg box1">
                     <div class="project-box">
-                        <img src="img/flask.jpg" style="width: 100%">
+                        <img src="{{url_for('static', filename='img/flask.jpg')}}" style="width: 100%">
                         <div class="tools">
                             <i class="fab fa-html5"></i>
                             <i class="fab fa-css3-alt"></i>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-lg box2">
                     <div class="project-box">
-                        <img src="img/IE1111R.PNG" style="width: 100%">
+                        <img src="{{url_for('static', filename='img/IE1111R.PNG')}}" style="width: 100%">
                         <div class="tools">
                             <i class="fas fa-file-excel"></i>
                         </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-lg box3">
                     <div class="project-box">
-                        <img src="img/metadata.png" style="width: 100%">
+                        <img src="{{url_for('static', filename='img/metadata.png')}}" style="width: 100%">
                         <div class="tools">
                             <i class="fa-solid fa-gem"></i>
                             <i class="fa-brands fa-react"></i>
@@ -158,7 +158,7 @@
             <div class="row">
                 <div class="col-lg box1">
                     <div class="project-box">
-                        <img src="img/NS.PNG" style="width: 100%">
+                        <img src="{{url_for('static', filename='img/NS.PNG')}}" style="width: 100%">
                         <div class="tools">
                             <i class="fab fa-python"></i>
                             <i class="fab fa-google-drive"></i>
@@ -173,7 +173,7 @@
 
                     <div class="project-box">
                         <a href="https://yuki-zmstr.github.io/en/" target="_blank">
-                            <img src="img/old.png" style="width: 100%">
+                            <img src="{{url_for('static', filename='img/old.png')}}" style="width: 100%">
                         </a>
                         <div class="tools">
                             <i class="fab fa-html5"></i>
@@ -215,11 +215,11 @@
                     01 Reading
                 </div>
                 <div class="slide">
-                    <img src="img/sbreading.jpg">
+                    <img src="{{url_for('static', filename='img/sbreading.jpg')}}">
                     <div class="caption">@ Tokyu Plaza Omotesando Harajuku 6F Terrace</div>
                 </div>
                 <div class="slide">
-                    <img src="img/books.jpg">
+                    <img src="{{url_for('static', filename='img/books.jpg')}}">
                     <div class="caption">Collections</div>
                 </div>
 
@@ -239,24 +239,24 @@
                     02 Photography
                 </div>
                 <div class="slide">
-                    <img src="img/glasses.jpg">
+                    <img src="{{url_for('static', filename='img/glasses.jpg')}}">
                     <div class="caption">@ Roma-ken, Jingumae, Harajuku</div>
                 </div>
                 <div class="slide">
-                    <img src="img/fuji.jpg">
+                    <img src="{{url_for('static', filename='img/fuji.jpg')}}">
                     <div class="caption">5pm vibes.</div>
                 </div>
                 <div class="slide">
-                    <img src="img/cameraman.jpg">
+                    <img src="{{url_for('static', filename='img/cameraman.jpg')}}">
                     <div class="caption">@ South Bridge Road, Chinatown, Singapore.</div>
                 </div>
                 <div class="slide">
-                    <img src="img/1311.jpg">
+                    <img src="{{url_for('static', filename='img/1311.jpg')}}">
                     <div class="caption">Memories from class. @ FAB Lab, Faculty of Engineering, NUS</div>
                 </div>
 
                 <div class="slide">
-                    <img src="img/burger.jpg">
+                    <img src="{{url_for('static', filename='img/burger.jpg')}}">
                     <div class="caption">At work. @ Three Buns, Chinatown, Singapore.</div>
                 </div>
                 <a class="prev"></a>
@@ -276,24 +276,24 @@
                     03 Cooking
                 </div>
                 <div class="slide">
-                    <img src="img/orangep.jpg">
+                    <img src="{{url_for('static', filename='img/orangep.jpg')}}">
                     <div class="caption">Orange peels. Condiments for tea.</div>
                 </div>
                 <div class="slide">
-                    <img src="img/friedr.jpg">
+                    <img src="{{url_for('static', filename='img/friedr.jpg')}}">
                     <div class="caption">Made purely from leftovers and sesame oil.</div>
                 </div>
                 <div class="slide">
-                    <img src="img/tomatostew.jpg">
+                    <img src="{{url_for('static', filename='img/tomatostew.jpg')}}">
                     <div class="caption">Tomato Stew. Longer the simmer, fluffier the eggplant.</div>
                 </div>
                 <div class="slide">
-                    <img src="img/chics.jpg">
+                    <img src="{{url_for('static', filename='img/chics.jpg')}}">
                     <div class="caption">Packing for lunch in the morning.</div>
                 </div>
 
                 <div class="slide">
-                    <img src="img/lemoncookie.jpg">
+                    <img src="{{url_for('static', filename='img/lemoncookie.jpg')}}">
                     <div class="caption">Lemon cookies. Just me fooling around with freshly-baked cookies.</div>
                 </div>
                 <a class="prev"></a>
@@ -313,12 +313,12 @@
                     04 Writing
                 </div>
                 <div class="slide">
-                    <img src="img/writingen.jpg">
+                    <img src="{{url_for('static', filename='img/writingen.jpg')}}">
                     <div class="caption">Writing is cathartic.</div>
 
                 </div>
                 <div class="slide">
-                    <img src="img/writingjp.jpg ">
+                    <img src="{{url_for('static', filename='img/writingjp.jpg')}}">
                     <div class="caption">I write in Japanese too.</div>
                 </div>
                 <a class="prev"></a>
