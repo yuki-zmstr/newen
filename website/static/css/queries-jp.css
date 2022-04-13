@@ -1,0 +1,327 @@
+/* ----------------------------------------------- */
+
+
+/* BIG DESKTOP */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1500px) {}
+
+
+/* ----------------------------------------------- */
+
+
+/* DESKTOP */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1080px) and (max-width: 1499px) {}
+
+
+/* ----------------------------------------------- */
+
+
+/* TABLET LANDSCAPE */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+
+/* ----------------------------------------------- */
+
+
+/* MOBILE PORTRAIT */
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    #main {
+        width: 95%;
+    }
+    /* ----------------------------------------------- */
+    /* HEADER */
+    /* ----------------------------------------------- */
+    #header {
+        width: inherit;
+        height: 3vh;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-top: 3px;
+        z-index: 999;
+    }
+    #header img {
+        width: 7%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #nav {
+        float: right;
+        padding-left: 100px;
+        position: absolute;
+        top: 50%;
+        right: 1vw;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #nav li {
+        list-style: none;
+        float: left;
+        margin-left: 10px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        transition: 0.6s ease;
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+    }
+    #nav li {
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+        font-family: 'PT Sans Narrow', sans-serif;
+        transition: none;
+    }
+    #nav li:hover {
+        cursor: default;
+        color: inherit;
+    }
+    /* ----------------------------------------------- */
+    /* ABOUT ME */
+    /* ----------------------------------------------- */
+    #about-me {
+        width: 60%;
+        margin: 10vh auto 0 auto;
+    }
+    #about-me h1 {
+        margin-bottom: 1vh;
+        font-size: 6vw;
+    }
+    #about-me p {
+        margin: 2vh 0 0 0;
+        font-size: 2.5vw;
+    }
+    /* ----------------------------------------------- */
+    /* PROJECTS */
+    /* ----------------------------------------------- */
+    #projects {
+        margin-top: 5vh;
+    }
+    .project-box {
+        margin-top: 4vh;
+        background-color: #a5a5a5;
+        padding: 5px 5px 0px 5px
+    }
+    /* #project .row {
+        padding: 0;
+    } */
+    .box2 {
+        margin-top: 0px;
+    }
+    .box3 {
+        margin-top: 0px;
+    }
+    .project-box img {
+        padding: 0;
+    }
+    .tools {
+        font-size: 4vw;
+        text-align: center;
+    }
+    /* .tools i {
+        padding: 2% 2.5% 0 2.5%
+    } */
+    .explanation h5 {
+        font-size: 4vw;
+        margin-top: 1vh;
+    }
+    .explanation span {
+        font-size: 2vw;
+    }
+    /* ----------------------------------------------- */
+    /* PHILOSOPHY */
+    /* ----------------------------------------------- */
+    #philosophy {
+        height: 30vh;
+        margin-top: 10vh;
+        position: relative;
+        text-align: center;
+    }
+    #philosophy p {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: 'Crete Round', serif;
+        font-size: 2.5vw;
+    }
+    /* ----------------------------------------------- */
+    /* SKILLS */
+    /* ----------------------------------------------- */
+    #skills {
+        padding-top: 10vh;
+        margin-bottom: 15vh;
+    }
+    #codes {
+        background-color: #000000;
+        opacity: 1;
+        background-image: linear-gradient(#232323 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, #232323 0.6000000000000001px, #000000 0.6000000000000001px);
+        background-size: 5px 5px;
+        background-repeat: repeat;
+        font-family: 'Allura', cursive;
+        height: 20vh;
+    }
+    #codes p {
+        padding-left: 20px;
+        font-size: 4rem;
+        line-height: 25px;
+    }
+    #skills h1 {
+        margin-bottom: 1vh;
+        font-size: 7vw;
+    }
+    #skills h6 {
+        font-size: 2vw;
+        margin-bottom: 5px;
+    }
+    /* ----------------------------------------------- */
+    /* FILLER */
+    /* ----------------------------------------------- */
+    #filler {
+        height: 3px;
+        width: 100%;
+        margin-bottom: 10vh;
+        background-color: #000000;
+        opacity: 1;
+        background-image: linear-gradient(45deg, #616161 50%, #000000 50%);
+        background-repeat: repeat;
+        background-size: 5px 5px;
+    }
+    /* ----------------------------------------------- */
+    /* HOBBIES */
+    /* ----------------------------------------------- */
+    .slideshow-container {
+        max-height: 400px;
+        position: relative;
+        margin: 10vh auto 10vh;
+        position: relative;
+    }
+    .slideshow-container img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .slide {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {
+            opacity: .5
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .title {
+        position: absolute;
+        writing-mode: vertical-rl;
+        right: 1vw;
+        top: -4vh;
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        z-index: 2;
+        font-size: 3vw;
+    }
+    .prev,
+    .next {
+        display: block!important;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 40px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        /* -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: background-color 0.6s ease;
+        cursor: pointer; */
+    }
+    .next {
+        right: 0px;
+        /* background: url(../img/next.png) no-repeat 0 0;
+        background-size: 50%; */
+    }
+    .caption {
+        position: absolute;
+        right: 0;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
+    }
+    .dots {
+        margin-top: 2vh;
+        text-align: center;
+    }
+    .dot {
+        cursor: pointer;
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* ----------------------------------------------- */
+    /* CONTACT */
+    /* ----------------------------------------------- */
+    #contact {
+        border-top: 2px solid rgb(61, 61, 61);
+        margin-top: 10vh;
+    }
+    #contact ul {
+        margin-bottom: 0;
+        padding: 0
+    }
+    #contact a {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+        -webkit-transition: color 0.4s ease-in-out;
+        transition: color 0.4s ease-in-out;
+        margin: 3vh 4vw 2vh 4vw;
+        font-size: 2.5vw;
+    }
+    #contact li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #contact a:hover {
+        color: rgb(122, 122, 122);
+    }
+    #contact p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        /* font-family: 'Crete Round', serif; */
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2vw;
+        letter-spacing: 1px;
+        color: rgb(61, 61, 61);
+    }
+}

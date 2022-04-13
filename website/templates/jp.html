@@ -33,9 +33,11 @@
 
     <!-- custom styling -->
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style-jp.css')}}" />
 
     <!-- media queries -->
     <link rel="stylesheet" href="{{url_for('static', filename='css/queries.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/queries-jp.css')}}" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -72,12 +74,14 @@
             <h1>Welcome.</h1>
             <h1 id="jp">こんにちは。</h1>
             <h1 id="ch">你好。</h1>
-            <p>I'm Yukihide, a college student in the National University of Singapore majoring in Industrial and Systems Engineering.</p>
+            <p>シンガポールで大学生をしています。高橋　志英（ユキヒデ）です。</p>
             <!-- <p>Plan, execute, reflect, improve. I learn best through this iterative process.</p> -->
-            <p>I spent my years growing up in three different countries - Singapore, Taiwan, and Japan, each for about six years.</p>
-            <p>After serving National Service in Singapore for two years, I matriculated to NUS in August 2020.</p>
-            <p>I am fluent in English and Japanese, as well as conversational Chinese. </p>
-            <p>Please feel free to reach out!</p>
+            <p>2018年3月　渋谷教育学園渋谷高等学校　卒業</p>
+            <p>2018年8月～2020年8月　シンガポール陸軍にて兵役を務める。</p>
+            <p>2020年8月　シンガポール国立大学　産業・システム工学科　入学</p>
+            <p>2020年12月～2021年2月　株式会社Novelshipにて、オペレーション・インターンを務める。ウェブスクレイピングや業務の自動化を行う。</p>
+            <p>2021年12月～2022年2月　マクラーレン・アジアパシフィックにて、セールスインターンを務める。</p>
+            <p>2022年3月～現在　メタデータ株式会社にて、エンジニアインターンを務める。自然言語処理を行うウェブアプリの開発に携わる。</p>
         </div>
         <div id="projects">
             <div class="row">
@@ -93,8 +97,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>Food Blog</h5>
-                        <span>Stuff I make. 100% Yumz and Sweetz. 100% Goodness.</span>
+                        <h5>料理ブログ</h5>
+                        <span>つくったもの。常時アイデア募集中。</span>
                     </div>
                 </div>
                 <div class="col-lg box2">
@@ -109,8 +113,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>Web Design</h5>
-                        <span>Official website for a student organization.</span>
+                        <h5>ウェブ制作</h5>
+                        <span>学生団体のホームページ。</span>
                     </div>
                 </div>
             </div>
@@ -126,8 +130,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>Food Blog with Login Feature</h5>
-                        <span>Full stack food blog. (Under Development). Flask as back-end library.</span>
+                        <h5>料理ブログ(フルスタック)</h5>
+                        <span>料理ブログをDB、バックエンドを含むウェブアプリ化(開発途中) ライブラリはFlask.</span>
                     </div>
 
                 </div>
@@ -139,8 +143,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>Resource Optimization Tool</h5>
-                        <span>Distributes resources based on cost & demand. Linear Optimization, Matrix.</span>
+                        <h5>資源供給ツール</h5>
+                        <span>災害時に発生する様々な需要を想定し、最適な供給バランスを割り出す。数理最適化。</span>
                     </div>
                 </div>
                 <div class="col-lg box3">
@@ -152,8 +156,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>NLP Analysis Tool</h5>
-                        <span>Web App for Positivity/Negativity analysis in product reviews. Ruby on Rails. React.</span>
+                        <h5>自然言語処理ツール</h5>
+                        <span>自然文テキストデータを自動分類・分析するウェブアプリ。</span>
                     </div>
                 </div>
             </div>
@@ -167,8 +171,8 @@
                         </div>
                     </div>
                     <div class="explanation">
-                        <h5>Performance Tracking System</h5>
-                        <span>Realtime tracking of physical outputs of a product line. Regex, Sheets API, Cron.</span>
+                        <h5>作業効率の測定</h5>
+                        <span>作業効率をリアルタイムで測定しGoogle Sheetsを用いて可視化するツールを開発。正規表現、Sheets API、Cron.</span>
                     </div>
                 </div>
                 <div class="col-lg box2">
@@ -185,13 +189,13 @@
                     </div>
                     <div class="explanation">
                         <h5>Portfolio V.1 (2021)</h5>
-                        <span>Very first attempt at Web Design.</span>
+                        <span>初めてウェブ制作に挑戦。</span>
                     </div>
                 </div>
             </div>
         </div>
         <div id="philosophy">
-            <p>I like to tell myself, <br>"The human brain is made to learn. Feed it the experience it needs."</p>
+            <p>人は経験を元に学習していく。<br>経験こそ一番の財産。</p>
         </div>
         <div id="skills">
             <div class="row">
@@ -200,13 +204,13 @@
                 </div>
                 <div class="col">
                     <h1>Skillsets.</h1>
-                    <h6>Languages: English, Japanese, Chinese.</h6>
-                    <h6>Languages(Programming): Javascript, Python, Ruby, C++.</h6>
-                    <h6>OS: Windows, Mac, Ubuntu.</h6>
-                    <h6>Libraries: BS4, React, Flask, Ruby on Rails, RSpec, Tensorflow.</h6>
-                    <h6>Databases: MySQL, Elasticsearch.</h6>
-                    <h6>PaaS: Heroku, Github Pages.</h6>
-                    <h6>Others: WordPress, Google Analytics, Slack.</h6>
+                    <h6>言語：日本語、英語、中国語（会話レベル）</h6>
+                    <h6>言語(プログラミング)：Javascript, Python, Ruby, C++.</h6>
+                    <h6>OS：Windows, Mac, Ubuntu.</h6>
+                    <h6>ライブラリ：BS4, React, Flask, Ruby on Rails, RSpec, Tensorflow.</h6>
+                    <h6>データベース：MySQL, Elasticsearch.</h6>
+                    <h6>PaaS：Heroku, Github Pages.</h6>
+                    <h6>その他：WordPress, Google Analytics, Slack.</h6>
                 </div>
             </div>
         </div>
@@ -218,11 +222,11 @@
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/sbreading.jpg')}}">
-                    <div class="caption">@ Tokyu Plaza Omotesando Harajuku 6F Terrace</div>
+                    <div class="caption">@ 東急プラザ表参道原宿 6階 テラス</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/books.jpg')}}">
-                    <div class="caption">Collections</div>
+                    <div class="caption">コレクション</div>
                 </div>
 
                 <a class="prev">
@@ -242,11 +246,11 @@
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/glasses.jpg')}}">
-                    <div class="caption">@ Roma-ken, Jingumae, Harajuku</div>
+                    <div class="caption">@ ローマ軒 神宮前comichi店</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/fuji.jpg')}}">
-                    <div class="caption">5pm vibes.</div>
+                    <div class="caption">隔離中のホテルから。</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/cameraman.jpg')}}">
@@ -254,12 +258,12 @@
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/1311.jpg')}}">
-                    <div class="caption">Memories from class. @ FAB Lab, Faculty of Engineering, NUS</div>
+                    <div class="caption">大学の講義の思い出 @ Faculty of Engineering, NUS</div>
                 </div>
 
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/burger.jpg')}}">
-                    <div class="caption">At work. @ Three Buns, Chinatown, Singapore.</div>
+                    <div class="caption">お仕事中。 @ Three Buns, Chinatown, Singapore.</div>
                 </div>
                 <a class="prev"></a>
                 <a class="next"></a>
@@ -279,24 +283,24 @@
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/orangep.jpg')}}">
-                    <div class="caption">Orange peels. Condiments for tea.</div>
+                    <div class="caption">オレンジピール。紅茶と相性抜群。</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/friedr.jpg')}}">
-                    <div class="caption">Made purely from leftovers and sesame oil.</div>
+                    <div class="caption">残り物処理にもってこい。</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/tomatostew.jpg')}}">
-                    <div class="caption">Tomato Stew. Longer the simmer, fluffier the eggplant.</div>
+                    <div class="caption">トマトシチュー。日本酒を加えて煮込むと茄子が柔らかくなる。</div>
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/chics.jpg')}}">
-                    <div class="caption">Packing for lunch in the morning.</div>
+                    <div class="caption">やる気のある朝にお弁当づくり。</div>
                 </div>
 
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/lemoncookie.jpg')}}">
-                    <div class="caption">Lemon cookies. Just me fooling around with freshly-baked cookies.</div>
+                    <div class="caption">レモンクッキー。盛り付けで遊んでしまいました。</div>
                 </div>
                 <a class="prev"></a>
                 <a class="next"></a>
@@ -315,14 +319,15 @@
                     04 Writing
                 </div>
                 <div class="slide">
-                    <img src="{{url_for('static', filename='img/writingen.jpg')}}">
-                    <div class="caption">Writing is cathartic.</div>
-
+                    <img src="{{url_for('static', filename='img/writingjp.jpg')}}">
+                    <div class="caption">カタルシス。</div>
                 </div>
                 <div class="slide">
-                    <img src="{{url_for('static', filename='img/writingjp.jpg')}}">
-                    <div class="caption">I write in Japanese too.</div>
+                    <img src="{{url_for('static', filename='img/writingen.jpg')}}">
+                    <div class="caption">英語でも書きます。</div>
+
                 </div>
+
                 <a class="prev"></a>
                 <a class="next"></a>
 
