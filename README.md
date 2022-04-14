@@ -1,2 +1,1 @@
-First page deployed using GitHub Pages.
-Wish me luck.
+Portfolio v.2
