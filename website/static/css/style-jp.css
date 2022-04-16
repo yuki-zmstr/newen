@@ -109,10 +109,6 @@ html {
     font-size: 3vw;
 }
 
-#about-me p:first-of-type {
-    margin: 10vh 0 0 0
-}
-
 #about-me p {
     margin: 5vh 0;
     font-family: 'Shippori Mincho', sans-serif;
