@@ -30,9 +30,31 @@
 
     <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> -->
 
+    <script type="text/javascript">
+        /***********************************************
+         * Different CSS depending on OS (mac/pc)- (c) Dynamic Drive (www.dynamicdrive.com)
+         * This notice must stay intact for use
+         * Visit http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
 
-    <!-- custom styling -->
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
+        var csstype = "external" //Specify type of CSS to use. "Inline" or "external"
+
+        var mac_externalcss = 'static/css/macstyle.css' //if "external", specify Mac css file here
+        var pc_externalcss = 'static/css/style.css' //if "external", specify PC/default css file here
+
+        ///////No need to edit beyond here////////////
+
+        var mactest = navigator.userAgent.indexOf("Mac") != -1
+        if (csstype == "inline") {
+            document.write('<style type="text/css">')
+            if (mactest)
+                document.write(mac_css)
+            else
+                document.write(pc_css)
+            document.write('</style>')
+        } else if (csstype == "external")
+            document.write('<link rel="stylesheet" type="text/css" href="' + (mactest ? mac_externalcss : pc_externalcss) + '">')
+    </script>
 
     <!-- media queries -->
     <link rel="stylesheet" href="{{url_for('static', filename='css/queries.css')}}" />
@@ -223,7 +245,7 @@
                 </div>
                 <div class="slide">
                     <img src="{{url_for('static', filename='img/books.jpg')}}">
-                    <div class="caption">Collections</div>
+                    <div class="caption">Collection</div>
                 </div>
 
                 <a class="prev">

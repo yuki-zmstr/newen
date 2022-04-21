@@ -1,0 +1,411 @@
+/* ----------------------------------------------- */
+
+
+/* SET UP */
+
+
+/* ----------------------------------------------- */
+
+html {
+    background-color: #fffdf9;
+    font-size: 1vw;
+}
+
+#main {
+    width: 55%;
+    margin: auto;
+    overflow-x: hidden;
+    opacity: 0;
+    ;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* HEADER */
+
+
+/* ----------------------------------------------- */
+
+#header {
+    width: inherit;
+    height: 5vh;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    z-index: 999;
+}
+
+#header img {
+    width: 5%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 1.5vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#header img:hover {
+    cursor: pointer;
+}
+
+#nav {
+    float: right;
+    padding-left: 100px;
+    position: absolute;
+    top: 50%;
+    right: 1vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#nav li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    transition: 0.6s ease;
+}
+
+#nav li:hover {
+    cursor: pointer;
+    color: rgb(181, 181, 181);
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* ABOUT ME */
+
+
+/* ----------------------------------------------- */
+
+#about-me {
+    font-family: 'Crete Round', serif;
+    width: 60%;
+    margin: 30vh auto 0 auto;
+}
+
+#about-me h1 {
+    margin-bottom: 2vh;
+    font-size: 3vw;
+}
+
+#about-me p {
+    margin: 8vh 0 0 0
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* PROJECTS */
+
+
+/* ----------------------------------------------- */
+
+.project-box {
+    margin-top: 8vh;
+    background-color: #a5a5a5;
+    opacity: 1;
+    background-image: linear-gradient(#cccccc 1.6px, transparent 1.6px), linear-gradient(90deg, #cccccc 1.6px, transparent 1.6px), linear-gradient(#cccccc 0.8px, transparent 0.8px), linear-gradient(90deg, #cccccc 0.8px, #a5a5a5 0.8px);
+    background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
+    background-position: -1.6px -1.6px, -1.6px -1.6px, -0.8px -0.8px, -0.8px -0.8px;
+    position: relative;
+    padding: 10px 10px 5px 10px
+}
+
+.box2 {
+    margin-top: 30px;
+}
+
+.box3 {
+    margin-top: 60px;
+}
+
+.project-box img {
+    padding: 0;
+}
+
+.tools {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.tools i {
+    padding: 2% 2.5% 0 2.5%
+}
+
+.explanation h5 {
+    margin-top: 5%;
+    font-family: 'Crete Round', serif;
+    font-weight: 500;
+}
+
+.explanation span {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.clickable:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* PHILOSOPHY */
+
+
+/* ----------------------------------------------- */
+
+#philosophy {
+    height: 60vh;
+    margin-top: 10vh;
+    position: relative;
+    text-align: center;
+}
+
+#philosophy p {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Crete Round', serif;
+    font-size: 1.2rem;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* SKILLS */
+
+
+/* ----------------------------------------------- */
+
+#skills {
+    padding-top: 10vh;
+    margin-bottom: 30vh;
+}
+
+#codes {
+    background-color: #000000;
+    opacity: 1;
+    background-image: linear-gradient(#191919 0.6000000000000001px, transparent 0.6000000000000001px), linear-gradient(to right, #191919 0.6000000000000001px, #000000 0.6000000000000001px);
+    background-size: 12px 12px;
+    background-repeat: repeat;
+    font-family: 'Allura', cursive;
+    /* font-style: italic; */
+    font-weight: 500;
+    height: 50vh;
+    position: relative;
+}
+
+#codes p {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-left: 40px;
+    font-size: 2.5rem;
+    color: silver;
+    line-height: 70px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#skills h1 {
+    margin-bottom: 2vh;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* FILLER */
+
+
+/* ----------------------------------------------- */
+
+#filler {
+    height: 10px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 1;
+    background-image: linear-gradient(45deg, #414040 50%, #000000 50%);
+    background-repeat: repeat;
+    background-size: 10px 10px;
+    margin-bottom: 15vh;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* HOBBIES */
+
+
+/* ----------------------------------------------- */
+
+.slideshow-container {
+    max-height: 700px;
+    position: relative;
+    margin: 10vh auto 10vh;
+    position: relative;
+}
+
+.slideshow-container img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slide {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    right: 1vw;
+    top: -5vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.prev,
+.next {
+    display: block!important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(128, 128, 128, 0.5)
+}
+
+.next {
+    right: 0;
+    /* background-color: blue; */
+}
+
+.caption {
+    position: absolute;
+    right: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.dots {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* CONTACT */
+
+
+/* ----------------------------------------------- */
+
+#contact {
+    border-top: 2px solid rgb(61, 61, 61);
+    margin-top: 20vh;
+}
+
+#contact ul {
+    margin-bottom: 0;
+    padding: 0
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+    margin: 5vh 2vw 3vh 2vw
+}
+
+#contact li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#contact a:hover {
+    color: rgb(122, 122, 122);
+}
+
+#contact p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Crete Round', serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+}
