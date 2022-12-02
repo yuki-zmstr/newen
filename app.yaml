@@ -1,7 +1,0 @@
-runtime: python27
-threadsafe: false
-
-handlers:
-  # Matches requests to /images/... to files in static/images/...
-  - url: /
-    static_dir: website/templates/home
