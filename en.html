@@ -39,8 +39,8 @@
 
         var csstype = "external" //Specify type of CSS to use. "Inline" or "external"
 
-        var mac_externalcss = 'static/css/macstyle.css' //if "external", specify Mac css file here
-        var pc_externalcss = 'static/css/style.css' //if "external", specify PC/default css file here
+        var mac_externalcss = 'css/macstyle.css' //if "external", specify Mac css file here
+        var pc_externalcss = 'css/style.css' //if "external", specify PC/default css file here
 
         ///////No need to edit beyond here////////////
 
@@ -57,11 +57,11 @@
     </script>
 
     <!-- media queries -->
-    <link rel="stylesheet" href="static/css/queries.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <title>Yukihide Takahashi - NUS Student</title>
 </head>
@@ -70,7 +70,7 @@
     <div id="main">
         <div id="header">
             <div id="logo" style="display: block; float: left;">
-                <img src="{{url_for('static', filename='img/logo.png')}}" onclick="window.location='#main'" />
+                <img src="img/logo.png" onclick="window.location='#main'" />
             </div>
             <ul id="nav" style="display: block;">
                 <li onclick="window.location='#projects'">

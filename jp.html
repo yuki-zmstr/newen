@@ -39,10 +39,10 @@
 
         var csstype = "external" //Specify type of CSS to use. "Inline" or "external"
 
-        var mac_externalcss = 'static/css/macstyle.css' //if "external", specify Mac css file here
-        var mac_externalcss_jp = 'static/css/macstyle-jp.css' //if "external", specify Mac css file here
-        var pc_externalcss = 'static/css/style.css' //if "external", specify PC/default css file here
-        var pc_externalcss_jp = 'static/css/style-jp.css' //if "external", specify PC/default css file here
+        var mac_externalcss = 'css/macstyle.css' //if "external", specify Mac css file here
+        var mac_externalcss_jp = 'css/macstyle-jp.css' //if "external", specify Mac css file here
+        var pc_externalcss = 'css/style.css' //if "external", specify PC/default css file here
+        var pc_externalcss_jp = 'css/style-jp.css' //if "external", specify PC/default css file here
 
         ///////No need to edit beyond here////////////
 
@@ -61,17 +61,13 @@
     </script>
 
 
-    <!-- custom styling -->
-    <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style-jp.css')}}" /> -->
-
     <!-- media queries -->
-    <link rel="stylesheet" href="static/css/queries.css" />
-    <link rel="stylesheet" href="static/css/style-jp.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/style-jp.css" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <title>高橋ユキヒデ - シンガポール国立大学</title>
 </head>
@@ -80,7 +76,7 @@
     <div id="main">
         <div id="header">
             <div id="logo" style="display: block; float: left;">
-                <img src="{{url_for('static', filename='img/logo.png')}}" onclick="window.location='#main'" />
+                <img src="img/logo.png" onclick="window.location='#main'" />
             </div>
             <ul id="nav" style="display: block;">
                 <li onclick="window.location='#projects'">
